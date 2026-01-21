@@ -58,27 +58,27 @@ Both ECUs communicate using UART protocol.
 
 ## 🗂 Project Structure
 dual-mcu-door-locker-system
-│
-├── HMI_ECU
-│   ├── keypad.c / keypad.h
-│   ├── lcd.c / lcd.h
-│   ├── uart.c / uart.h
-│   └── HMI_ECU.c
-│
-├── Control_ECU
-│   ├── external_eeprom.c / .h
-│   ├── pwm_timer.c / .h
-│   ├── dc_motor.c / .h
-│   ├── pir.c / .h
-│   ├── buzzer.c / .h
-│   └── control_ecu.c
-│
-├── docs
-│   ├── HMI_architecture.jpg
-│   ├── Control_architecture.jpg
-│   └── simulation.jpg
-│
-└── proteus
+- │
+- ├── HMI_ECU
+- │   ├── keypad.c / keypad.h
+- │   ├── lcd.c / lcd.h
+- │   ├── uart.c / uart.h
+- │   └── HMI_ECU.c
+- │
+- ├── Control_ECU
+- │   ├── external_eeprom.c / .h
+- │   ├── pwm_timer.c / .h
+- │   ├── dc_motor.c / .h
+- │   ├── pir.c / .h
+- │   ├── buzzer.c / .h
+- │   └── control_ecu.c
+- │
+- ├── docs
+- │   ├── HMI_architecture.jpg
+- │   ├── Control_architecture.jpg
+- │   └── simulation.jpg
+- │
+- └── proteus
 ---
 
 ## 🖼 Project Images
